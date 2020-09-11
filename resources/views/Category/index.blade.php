@@ -4,6 +4,11 @@
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-md-10">
+                @if(Session::has('message'))
+                    <div class="alert alert-success">
+                        {{Session::get('message')}}
+                    </div>
+                @endif
                 <div class="card">
                     <div class="card-header">All Category</div>
 
@@ -30,7 +35,7 @@
                                             <a href="{{route('category.edit', [$category->id])}}" class="btn btn-success btn-sm">Edit</a>
                                         </th>
                                         <th>
-                                            <a href="{{route('category.destroy', [$category->id])}}" class="btn btn-danger btn-sm">Delete</a>
+                                            <a href="" class="btn btn-danger btn-sm">Delete</a>
                                         </th>
                                     </tr>
                                     @endforeach
@@ -41,10 +46,6 @@
                             </table>
                         </div>
 
-
-                        @foreach($categories as $category)
-                            <p>{{$category->name}}</p>
-                        @endforeach
                     </div>
                 </div>
             </div>
