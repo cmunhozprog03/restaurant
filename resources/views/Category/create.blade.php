@@ -4,6 +4,11 @@
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-md-8">
+                @if(Session::has('message'))
+                    <div class="alert alert-success">
+                        {{Session::get('message')}}
+                    </div>
+                @endif
                 <div class="card">
                     <div class="card-header">Manage Food Category</div>
 
@@ -17,7 +22,7 @@
                             </div>
                             <div class="form-group">
                                 <label for="description">Description</label>
-                                <input type="text" name="Description" class="form-control">
+                                <input type="text" name="description" class="form-control">
                             </div>
                             <div class="form-group">
                                 <label for="slug">Slug</label>

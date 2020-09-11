@@ -19,6 +19,7 @@ class CreateFoodTable extends Migration
             $table->text('description');
             $table->decimal('price', 10, 2);
             $table->string('slug');
+            $table->string('image');
             $table->integer('category_id');
             $table->timestamps();
         });

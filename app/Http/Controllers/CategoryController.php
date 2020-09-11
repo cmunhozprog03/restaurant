@@ -14,7 +14,8 @@ class CategoryController extends Controller
      */
     public function index()
     {
-        return "index";
+        $categories = Category::latest()->get();
+        return view('category.index', compact('categories'));
     }
 
     /**
@@ -35,7 +36,12 @@ class CategoryController extends Controller
      */
     public function store(Request $request)
     {
-        return "ok";
+        Category::create([
+            'name' => $request->get('name'),
+            'description' => $request->get('description'),
+            'slug' => $request->get('slug')
+        ]);
+        return redirect()->back()->with('message', 'Category Created');
     }
 
     /**
