@@ -81,7 +81,7 @@ class CategoryController extends Controller
         $category->description = $request->get('description');
         $category->slug = $request->get('slug');
         $category->save();
-        return redirect()->route('category.index')->with('message', 'Category Updated');
+        return redirect()->route('category.index')->with('message', 'Category Update');
     }
 
     /**
@@ -92,6 +92,8 @@ class CategoryController extends Controller
      */
     public function destroy($id)
     {
-        //
+        $category = Category::find($id);
+        $category->delete();
+        return redirect()->route('category.index')->with('message', 'Category Deleted');
     }
 }

@@ -20,7 +20,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4e8ef2fe-79a3-4d23-b5ee-1433d86439e5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/resources/views/Category/edit.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/CategoryController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/CategoryController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/Category/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/Category/index.blade.php" afterDir="false" />
@@ -176,7 +175,7 @@
       <option name="presentableId" value="Default" />
       <updated>1599835541997</updated>
       <workItem from="1599835543069" duration="6053000" />
-      <workItem from="1599841646178" duration="9934000" />
+      <workItem from="1599841646178" duration="13541000" />
     </task>
     <task id="LOCAL-00001" summary="Aula009">
       <created>1599841669682</created>
@@ -199,7 +198,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599847611001</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Aula-012">
+      <created>1599857896777</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1599857896777</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -220,16 +226,17 @@
     <MESSAGE value="Aula009" />
     <MESSAGE value="Aula-009" />
     <MESSAGE value="Aula-011" />
-    <option name="LAST_COMMIT_MESSAGE" value="Aula-011" />
+    <MESSAGE value="Aula-012" />
+    <option name="LAST_COMMIT_MESSAGE" value="Aula-012" />
   </component>
   <component name="WindowStateProjectService">
     <state x="492" y="247" key="#Composer" timestamp="1599835618958">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="492" y="247" key="#Composer/0.0.1366.738@0.0.1366.738" timestamp="1599835618958" />
-    <state x="274" y="100" key="Vcs.Push.Dialog.v2" timestamp="1599847613999">
+    <state x="274" y="100" key="Vcs.Push.Dialog.v2" timestamp="1599857898743">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="274" y="100" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1599847613999" />
+    <state x="274" y="100" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1599857898743" />
   </component>
 </project>
